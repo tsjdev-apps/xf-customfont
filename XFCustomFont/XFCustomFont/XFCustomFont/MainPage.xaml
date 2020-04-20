@@ -6,12 +6,15 @@
              mc:Ignorable="d"
              x:Class="XFCustomFont.MainPage">
 
-    <StackLayout>
-<Label Text="Welcome to Xamarin.Forms!"
-       HorizontalOptions="Center"
-       VerticalOptions="CenterAndExpand"
-       FontSize="Large"
-       FontFamily="IndieFlower" />
+    <StackLayout VerticalOptions="Center"
+                 HorizontalOptions="Center">
+        <Label Text="Welcome to Xamarin.Forms!"
+               FontSize="Large"
+               FontFamily="IndieFlower" />
+
+        <Label Text="Default Style"
+               FontSize="Large"
+               FontFamily="IndieFlower" />
     </StackLayout>
 
 </ContentPage>
